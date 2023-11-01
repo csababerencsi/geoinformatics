@@ -30,6 +30,9 @@ function Mapping() {
   const vardaplexCinema = [48.22754323048318, 22.078470529050605];
   const retkoziMuzeum = [48.22588162855578, 22.0797783507993];
   const BessenyeiGyorgyGimnazium = [48.22486478460502, 22.086767247372677];
+  const varoshaza = [48.22551519166825, 22.078195356123985];
+  const konyvtar = [48.2265795282716, 22.07849617638132];
+  const kisvardaiVar = [48.23099418411681, 22.07185972258182];
   const kisvarda_harmasut = [
     [48.228571639987024, 22.092140520895413],
     [48.225472009953734, 22.090331087852974],
@@ -139,6 +142,27 @@ function Mapping() {
                   <center>Bessenyei György Gimnázium és Kollégium</center>
                   <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/277778097_372495268220011_8784451530629347406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D92rkLPZY1MAX-b4o48&_nc_ht=scontent-vie1-1.xx&oh=00_AfCpgGUSK0h9x3Km7HD2DaGBEytIFe1kvMnRuW3ag5e3tA&oe=65443A4E"></img>
                   1911. szeptember 15-én – megnyílt Kisvárdán az Állami Főgimnázium I. és V. osztálya, majd felmenő rendszerrel az 1914/15. tanévre benépesült. Az intézet ideiglenes épületben kapott helyet, az új épület tervezésével Wälder Gyula műépítészt bízta meg a Vallás- és Közoktatásügyi Minisztérium.  1929 őszén – elkészült a gimnázium mai épülete. 
+                </Popup>
+              </Marker>
+              <Marker position={varoshaza} icon={marker_icon}>
+                <Popup>
+                  <center>Városháza</center>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/V%C3%A1rosh%C3%A1za%2C_2017_Kisv%C3%A1rda.jpg"></img>
+                  A városháza egy kiemelkedő épülete Kisvárdának. Itt lehet elintézni az önkormányzati ügyeinket, illetve melléképülete egy kisebb múzeumként is funkcionál. A városháza előtti sétálóutcán tartják meg a fontosabb eseményeket és ünnepségeket, mint például az adventi gyertyák meggyújtását vagy az 1956-os forradalomra való megemlékezést. Időnként elő koncerteket is megrendeznek a kisvárdai lakosoknak.
+                </Popup>
+              </Marker>
+              <Marker position={konyvtar} icon={marker_icon}>
+                <Popup>
+                  <center>Várday István Városi Könyvtár</center>
+                  <img src="https://frissmedia.hu/images/news/pic-cache/16656445241947.jpg"></img>
+                  A Várday István Városi Könyvtár számtalan könyvet kínál a belátogatóknak különféle műfajokban. A városi könyvtár helyet nyújt a nyugalmas olvasásnak, illetve a neten való böngészésnek. Számos feltörekvő és híres művészeket hívnak meg ide, hogy előadják munkásságukat.
+                </Popup>
+              </Marker>
+              <Marker position={kisvardaiVar} icon={marker_icon}>
+                <Popup>
+                  <center>Kisvárdai vár</center>
+                  <img src="https://nkvp.hu/wp-content/uploads/2018/02/kisvarda-2.jpg"></img>
+                  A kisvárdai vár Kisvárda egyik fő nevezetessége, amelyben ma a kisvárdai Várszínház működik. A város történelmi központjának északnyugati szélén helyezkedik el, a belvárostól bő fél kilométerre, a 4149-es út közelében. A vár a Nemzeti Kastélyprogram és Nemzeti várprogram keretén belül újul meg. A felújítás során megtörténik a belső vár részleges rekonstrukciója és romkonzerválás (teljes elemek), kiállítóterek kerülnek kialakításra, amelyben megvalósul a kiállítás, felidézésre kerül a belső várárok (tájépítészeti elemekkel és növényzettel), a palánkhíd és környéke tájépítészeti eszközökkel érzékeltetett mocsári hangulattal, belső színpad és nézőtér épül maximum 350 fő számára, valamint külső mobil nagyszínpad és lelátó land art elemekkel kiépítve és nem utolsósorban lezajlik az általános környezetrendezés.
                 </Popup>
               </Marker>
             </LayerGroup>
