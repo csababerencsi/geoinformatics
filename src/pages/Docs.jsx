@@ -32,7 +32,7 @@ function Docs() {
         </div>
         <div>Készítette: Berencsi Csaba</div>
         <div>Neptun kód: YKS33Y</div>
-        <div className='mt-6'>Utolsó módosítás: 2023.11.01.</div>
+        <div className='mt-6'>Utolsó módosítás: 2023.11.02.</div>
         </span>
       </div>
       </div>
