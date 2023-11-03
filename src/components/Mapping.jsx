@@ -140,7 +140,7 @@ function Mapping() {
               <Marker position={BessenyeiGyorgyGimnazium} icon={marker_icon}>
                 <Popup>
                   <center>Bessenyei György Gimnázium és Kollégium</center>
-                  <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/277778097_372495268220011_8784451530629347406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D92rkLPZY1MAX-b4o48&_nc_ht=scontent-vie1-1.xx&oh=00_AfCpgGUSK0h9x3Km7HD2DaGBEytIFe1kvMnRuW3ag5e3tA&oe=65443A4E"></img>
+                  <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/277778097_372495268220011_8784451530629347406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gKsRjsjZFjgAX8get_B&_nc_ht=scontent-vie1-1.xx&oh=00_AfCQsqGWiqZCuIIbwUUq7fZNU5VG5kjJ6sbRbw-1InuEpQ&oe=654A290E"></img>
                   1911. szeptember 15-én – megnyílt Kisvárdán az Állami Főgimnázium I. és V. osztálya, majd felmenő rendszerrel az 1914/15. tanévre benépesült. Az intézet ideiglenes épületben kapott helyet, az új épület tervezésével Wälder Gyula műépítészt bízta meg a Vallás- és Közoktatásügyi Minisztérium.  1929 őszén – elkészült a gimnázium mai épülete. 
                 </Popup>
               </Marker>
